@@ -27,9 +27,8 @@ github_profile: "https://github.com/pricipia137"
 user: "방구석 철학자"
 user_email: "yuyuyu7020@gmail.com"
 contact_url: ""
-google_tracking_id: "UA-96359860-1"
 google_site_verification: "UA-96359860-1"
-disqus_shortname: ""
+disqus_shortname: "shortname_given_by_Disqus"
 
 # Build settings
 markdown: kramdown
