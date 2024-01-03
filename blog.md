@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Post"
-css: ["tags.css"]
+css: ["index.css"]
 ---
 {% include blog.html %}
