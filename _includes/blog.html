@@ -1,4 +1,3 @@
-post
 <div class="row">
   {% for post in paginator.posts %}
   <div class="col s12">
@@ -12,7 +11,7 @@ post
         <p id="post-content">{{post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
       </div>
       <div class="card-action">
-        <a href="{{./post.url | prepend: site.baseurl}}">
+        <a href="{{post.url}}">
           Read More
         </a>
       </div>
