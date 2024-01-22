@@ -1,0 +1,814 @@
+Microsoft Windows [Version 10.0.19045.3930]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\windows>cd C:\Users\windows\Desktop\js
+
+C:\Users\windows\Desktop\js>git clone https://github.com/principia137/principia137.github.io.git
+Cloning into 'principia137.github.io'...
+remote: Enumerating objects: 186, done.
+remote: Counting objects: 100% (186/186), done.
+remote: Compressing objects: 100% (142/142), done.
+Receiving objects:  84% (157/186)emote: Total 186 (delta 77), reused 137 (delta 34), pack-reused 0
+Receiving objects: 100% (186/186), 3.70 MiB | 12.41 MiB/s, done.
+Resolving deltas: 100% (77/77), done.
+
+C:\Users\windows\Desktop\js>gem install jekyll bundler
+Fetching unicode-display_width-2.5.0.gem
+Fetching pathutil-0.16.2.gem
+Fetching terminal-table-3.0.2.gem
+Fetching forwardable-extended-2.6.0.gem
+Fetching safe_yaml-1.0.5.gem
+Fetching rouge-4.2.0.gem
+Fetching mercenary-0.4.0.gem
+Fetching webrick-1.8.1.gem
+Fetching liquid-4.0.4.gem
+Fetching kramdown-2.4.0.gem
+Fetching kramdown-parser-gfm-1.1.0.gem
+Fetching ffi-1.16.3-x64-mingw-ucrt.gem
+Fetching rb-inotify-0.10.1.gem
+Fetching rb-fsevent-0.11.2.gem
+Fetching listen-3.8.0.gem
+Fetching jekyll-watch-2.2.1.gem
+Fetching google-protobuf-3.25.2-x64-mingw-ucrt.gem
+Fetching sass-embedded-1.69.7-x64-mingw-ucrt.gem
+Fetching jekyll-sass-converter-3.0.0.gem
+Fetching concurrent-ruby-1.2.2.gem
+Fetching i18n-1.14.1.gem
+Fetching http_parser.rb-0.8.0.gem
+Fetching eventmachine-1.2.7.gem
+Fetching em-websocket-0.5.3.gem
+Fetching jekyll-4.3.3.gem
+Fetching colorator-1.1.0.gem
+Fetching public_suffix-5.0.4.gem
+Fetching addressable-2.8.6.gem
+Successfully installed webrick-1.8.1
+Successfully installed unicode-display_width-2.5.0
+Successfully installed terminal-table-3.0.2
+Successfully installed safe_yaml-1.0.5
+Successfully installed rouge-4.2.0
+Successfully installed forwardable-extended-2.6.0
+Successfully installed pathutil-0.16.2
+Successfully installed mercenary-0.4.0
+Successfully installed liquid-4.0.4
+Successfully installed kramdown-2.4.0
+Successfully installed kramdown-parser-gfm-1.1.0
+Successfully installed ffi-1.16.3-x64-mingw-ucrt
+Successfully installed rb-inotify-0.10.1
+Successfully installed rb-fsevent-0.11.2
+Successfully installed listen-3.8.0
+Successfully installed jekyll-watch-2.2.1
+Successfully installed google-protobuf-3.25.2-x64-mingw-ucrt
+Successfully installed sass-embedded-1.69.7-x64-mingw-ucrt
+Successfully installed jekyll-sass-converter-3.0.0
+Successfully installed concurrent-ruby-1.2.2
+Successfully installed i18n-1.14.1
+Temporarily enhancing PATH for MSYS/MINGW...
+Building native extensions. This could take a while...
+Successfully installed http_parser.rb-0.8.0
+Building native extensions. This could take a while...
+Successfully installed eventmachine-1.2.7
+Successfully installed em-websocket-0.5.3
+Successfully installed colorator-1.1.0
+Successfully installed public_suffix-5.0.4
+Successfully installed addressable-2.8.6
+Successfully installed jekyll-4.3.3
+Parsing documentation for webrick-1.8.1
+Installing ri documentation for webrick-1.8.1
+Parsing documentation for unicode-display_width-2.5.0
+Installing ri documentation for unicode-display_width-2.5.0
+Parsing documentation for terminal-table-3.0.2
+Installing ri documentation for terminal-table-3.0.2
+Parsing documentation for safe_yaml-1.0.5
+Installing ri documentation for safe_yaml-1.0.5
+Parsing documentation for rouge-4.2.0
+Installing ri documentation for rouge-4.2.0
+Parsing documentation for forwardable-extended-2.6.0
+Installing ri documentation for forwardable-extended-2.6.0
+Parsing documentation for pathutil-0.16.2
+Installing ri documentation for pathutil-0.16.2
+Parsing documentation for mercenary-0.4.0
+Installing ri documentation for mercenary-0.4.0
+Parsing documentation for liquid-4.0.4
+Installing ri documentation for liquid-4.0.4
+Parsing documentation for kramdown-2.4.0
+Installing ri documentation for kramdown-2.4.0
+Parsing documentation for kramdown-parser-gfm-1.1.0
+Installing ri documentation for kramdown-parser-gfm-1.1.0
+Parsing documentation for ffi-1.16.3-x64-mingw-ucrt
+Installing ri documentation for ffi-1.16.3-x64-mingw-ucrt
+Parsing documentation for rb-inotify-0.10.1
+Installing ri documentation for rb-inotify-0.10.1
+Parsing documentation for rb-fsevent-0.11.2
+Installing ri documentation for rb-fsevent-0.11.2
+Parsing documentation for listen-3.8.0
+Installing ri documentation for listen-3.8.0
+Parsing documentation for jekyll-watch-2.2.1
+Installing ri documentation for jekyll-watch-2.2.1
+Parsing documentation for google-protobuf-3.25.2-x64-mingw-ucrt
+Installing ri documentation for google-protobuf-3.25.2-x64-mingw-ucrt
+Parsing documentation for sass-embedded-1.69.7-x64-mingw-ucrt
+Installing ri documentation for sass-embedded-1.69.7-x64-mingw-ucrt
+Parsing documentation for jekyll-sass-converter-3.0.0
+Installing ri documentation for jekyll-sass-converter-3.0.0
+Parsing documentation for concurrent-ruby-1.2.2
+Installing ri documentation for concurrent-ruby-1.2.2
+Parsing documentation for i18n-1.14.1
+Installing ri documentation for i18n-1.14.1
+Parsing documentation for http_parser.rb-0.8.0
+unknown encoding name "chunked\r\n\r\n25" for ext/ruby_http_parser/vendor/http-parser-java/tools/parse_tests.rb, skipping
+Installing ri documentation for http_parser.rb-0.8.0
+Parsing documentation for eventmachine-1.2.7
+Installing ri documentation for eventmachine-1.2.7
+Parsing documentation for em-websocket-0.5.3
+Installing ri documentation for em-websocket-0.5.3
+Parsing documentation for colorator-1.1.0
+Installing ri documentation for colorator-1.1.0
+Parsing documentation for public_suffix-5.0.4
+Installing ri documentation for public_suffix-5.0.4
+Parsing documentation for addressable-2.8.6
+Installing ri documentation for addressable-2.8.6
+Parsing documentation for jekyll-4.3.3
+Installing ri documentation for jekyll-4.3.3
+Done installing documentation for webrick, unicode-display_width, terminal-table, safe_yaml, rouge, forwardable-extended, pathutil, mercenary, liquid, kramdown, kramdown-parser-gfm, ffi, rb-inotify, rb-fsevent, listen, jekyll-watch, google-protobuf, sass-embedded, jekyll-sass-converter, concurrent-ruby, i18n, http_parser.rb, eventmachine, em-websocket, colorator, public_suffix, addressable, jekyll after 16 seconds
+Fetching bundler-2.5.4.gem
+Successfully installed bundler-2.5.4
+Parsing documentation for bundler-2.5.4
+Installing ri documentation for bundler-2.5.4
+Done installing documentation for bundler after 0 seconds
+29 gems installed
+
+A new release of RubyGems is available: 3.4.10 → 3.5.4!
+Run `gem update --system 3.5.4` to update your installation.
+
+
+C:\Users\windows\Desktop\js>ls
+'ls'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\Users\windows\Desktop\js>cd principia137.github.io
+
+C:\Users\windows\Desktop\js\principia137.github.io>bundle exec jekyll serve
+
+[!] There was an error parsing `Gemfile`: Invalid argument @ rb_sysopen - https://pages.github.com/versions.json. Bundler cannot continue.
+
+ #  from C:/Users/windows/Desktop/js/principia137.github.io/Gemfile:5
+ #  -------------------------------------------
+ #  versions = JSON.parse(open("https://pages.github.com/versions.json").read)
+ >  gem 'github-pages', versions['github-pages'], group: :jekyll_plugins
+ #  source "https://rubygems.org"
+ #  -------------------------------------------
+
+C:\Users\windows\Desktop\js\principia137.github.io>gem install --system
+ERROR:  While executing gem ... (Gem::OptionParser::InvalidOption)
+    invalid option: --system
+        D:/Ruby32-x64/lib/ruby/3.2.0/rubygems/command.rb:448:in `handle_options'
+        D:/Ruby32-x64/lib/ruby/3.2.0/rubygems/command.rb:313:in `invoke_with_build_args'
+        D:/Ruby32-x64/lib/ruby/3.2.0/rubygems/command_manager.rb:252:in `invoke_command'
+        D:/Ruby32-x64/lib/ruby/3.2.0/rubygems/command_manager.rb:192:in `process_args'
+        D:/Ruby32-x64/lib/ruby/3.2.0/rubygems/command_manager.rb:150:in `run'
+        D:/Ruby32-x64/lib/ruby/3.2.0/rubygems/gem_runner.rb:51:in `run'
+        D:/Ruby32-x64/bin/gem.cmd:18:in `<main>'
+
+C:\Users\windows\Desktop\js\principia137.github.io>gem update --system
+Updating rubygems-update
+Fetching rubygems-update-3.5.4.gem
+Successfully installed rubygems-update-3.5.4
+Parsing documentation for rubygems-update-3.5.4
+Installing ri documentation for rubygems-update-3.5.4
+Done installing documentation for rubygems-update after 0 seconds
+Parsing documentation for rubygems-update-3.5.4
+Done installing documentation for rubygems-update after 0 seconds
+Installing RubyGems 3.5.4
+  Successfully built RubyGem
+  Name: bundler
+  Version: 2.5.4
+  File: bundler-2.5.4.gem
+Bundler 2.5.4 installed
+RubyGems 3.5.4 installed
+Regenerating binstubs
+Regenerating plugins
+Parsing documentation for rubygems-3.5.4
+Installing ri documentation for rubygems-3.5.4
+
+# 3.5.4 / 2024-01-03
+
+## Enhancements:
+
+* Always avoid "Updating rubygems-update" message. Pull request
+  [#7335](https://github.com/rubygems/rubygems/pull/7335) by
+  deivid-rodriguez
+* Installs bundler 2.5.4 as a default gem.
+
+## Bug fixes:
+
+* Make `gem update --system` respect ruby version constraints. Pull
+  request [#7334](https://github.com/rubygems/rubygems/pull/7334) by
+  deivid-rodriguez
+
+# 3.5.3 / 2023-12-22
+
+## Enhancements:
+
+* Installs bundler 2.5.3 as a default gem.
+
+# 3.5.2 / 2023-12-21
+
+## Enhancements:
+
+* Support dynamic library loading with extension .so or .o. Pull request
+  [#7241](https://github.com/rubygems/rubygems/pull/7241) by hogelog
+* Installs bundler 2.5.2 as a default gem.
+
+## Performance:
+
+* Replace `object_id` comparison with identity Hash. Pull request
+  [#7303](https://github.com/rubygems/rubygems/pull/7303) by amomchilov
+* Use IO.copy_stream when reading, writing. Pull request
+  [#6958](https://github.com/rubygems/rubygems/pull/6958) by martinemde
+
+# 3.5.1 / 2023-12-15
+
+## Enhancements:
+
+* Installs bundler 2.5.1 as a default gem.
+
+# 3.5.0 / 2023-12-15
+
+## Security:
+
+* Replace `Marshal.load` with a fully-checked safe gemspec loader. Pull
+  request [#6896](https://github.com/rubygems/rubygems/pull/6896) by
+  segiddins
+
+## Breaking changes:
+
+* Drop ruby 2.6 and 2.7 support. Pull request
+  [#7116](https://github.com/rubygems/rubygems/pull/7116) by
+  deivid-rodriguez
+* Release package no longer includes test files. Pull request
+  [#6781](https://github.com/rubygems/rubygems/pull/6781) by hsbt
+* Hide `Gem::MockGemUi` from users. Pull request
+  [#6623](https://github.com/rubygems/rubygems/pull/6623) by hsbt
+* Deprecated `Gem.datadir` has been removed. Pull request
+  [#6469](https://github.com/rubygems/rubygems/pull/6469) by hsbt
+
+## Deprecations:
+
+* Deprecate `Gem::Platform.match?`. Pull request
+  [#6783](https://github.com/rubygems/rubygems/pull/6783) by hsbt
+* Deprecate `Gem::List`. Pull request
+  [#6311](https://github.com/rubygems/rubygems/pull/6311) by segiddins
+
+## Features:
+
+* The `generate_index` command can now generate compact index files and
+  lives as an external `rubygems-generate_index` gem. Pull request
+  [#7085](https://github.com/rubygems/rubygems/pull/7085) by segiddins
+* Make `gem install` fallback to user installation directory if default
+  gem home is not writable. Pull request
+  [#5327](https://github.com/rubygems/rubygems/pull/5327) by duckinator
+* Leverage ruby feature to warn when requiring default gems from stdlib
+  that will be turned into bundled gems in the future. Pull request
+  [#6840](https://github.com/rubygems/rubygems/pull/6840) by hsbt
+
+## Performance:
+
+* Use match? when regexp match data is unused. Pull request
+  [#7263](https://github.com/rubygems/rubygems/pull/7263) by segiddins
+* Fewer allocations in gem installation. Pull request
+  [#6975](https://github.com/rubygems/rubygems/pull/6975) by segiddins
+* Optimize allocations in `Gem::Version`. Pull request
+  [#6970](https://github.com/rubygems/rubygems/pull/6970) by segiddins
+
+## Enhancements:
+
+* Warn for duplicate meta data links when building gems. Pull request
+  [#7213](https://github.com/rubygems/rubygems/pull/7213) by etherbob
+* Vendor `net-http`, `net-protocol`, `resolv`, and `timeout` to reduce
+  conflicts between Gemfile gems and internal dependencies. Pull request
+  [#6793](https://github.com/rubygems/rubygems/pull/6793) by
+  deivid-rodriguez
+* Remove non-transparent requirement added to prerelease gems. Pull
+  request [#7226](https://github.com/rubygems/rubygems/pull/7226) by
+  deivid-rodriguez
+* Stream output from ext builds when --verbose. Pull request
+  [#7240](https://github.com/rubygems/rubygems/pull/7240) by osyoyu
+* Add missing services to CI detection and make it consistent between
+  RubyGems and Bundler. Pull request
+  [#7205](https://github.com/rubygems/rubygems/pull/7205) by nevinera
+* Update generate licenses template to not freeze regexps. Pull request
+  [#7154](https://github.com/rubygems/rubygems/pull/7154) by
+  github-actions[bot]
+* Don't check `LIBRUBY_RELATIVE` in truffleruby to signal a bash prelude
+  in rubygems binstubs. Pull request
+  [#7156](https://github.com/rubygems/rubygems/pull/7156) by
+  deivid-rodriguez
+* Update SPDX list and warn on deprecated identifiers. Pull request
+  [#6926](https://github.com/rubygems/rubygems/pull/6926) by simi
+* Simplify extended `require` to potentially fix some deadlocks. Pull
+  request [#6827](https://github.com/rubygems/rubygems/pull/6827) by nobu
+* Small refactors for `Gem::Resolver`. Pull request
+  [#6766](https://github.com/rubygems/rubygems/pull/6766) by hsbt
+* Use double-quotes instead of single-quotes consistently in warnings.
+  Pull request [#6550](https://github.com/rubygems/rubygems/pull/6550) by
+  hsbt
+* Add debug message for `nil` version gemspec. Pull request
+  [#6436](https://github.com/rubygems/rubygems/pull/6436) by hsbt
+* Installs bundler 2.5.0 as a default gem.
+
+## Bug fixes:
+
+* Fix installing from source with same default bundler version already
+  installed. Pull request
+  [#7244](https://github.com/rubygems/rubygems/pull/7244) by
+  deivid-rodriguez
+
+## Documentation:
+
+* Improve comment explaining the necessity of `write_default_spec` method.
+  Pull request [#6563](https://github.com/rubygems/rubygems/pull/6563) by
+  voxik
+
+# 3.4.22 / 2023-11-09
+
+## Enhancements:
+
+* Update SPDX license list as of 2023-10-05. Pull request
+  [#7040](https://github.com/rubygems/rubygems/pull/7040) by
+  github-actions[bot]
+* Remove unnecessary rescue. Pull request
+  [#7109](https://github.com/rubygems/rubygems/pull/7109) by
+  deivid-rodriguez
+* Installs bundler 2.4.22 as a default gem.
+
+## Bug fixes:
+
+* Handle empty array at built-in YAML serializer. Pull request
+  [#7099](https://github.com/rubygems/rubygems/pull/7099) by hsbt
+* Ignore non-tar format `.gem` files during search. Pull request
+  [#7095](https://github.com/rubygems/rubygems/pull/7095) by dearblue
+* Allow explicitly uninstalling multiple versions of same gem. Pull
+  request [#7063](https://github.com/rubygems/rubygems/pull/7063) by
+  kstevens715
+
+## Performance:
+
+* Avoid regexp match on every call to `Gem::Platform.local`. Pull request
+  [#7104](https://github.com/rubygems/rubygems/pull/7104) by segiddins
+
+## Documentation:
+
+* Get `Gem::Specification#extensions_dir` documented. Pull request
+  [#6218](https://github.com/rubygems/rubygems/pull/6218) by
+  deivid-rodriguez
+
+# 3.4.21 / 2023-10-17
+
+## Enhancements:
+
+* Abort `setup.rb` if Ruby is too old. Pull request
+  [#7011](https://github.com/rubygems/rubygems/pull/7011) by
+  deivid-rodriguez
+* Remove usage of Dir.chdir that only execute a subprocess. Pull request
+  [#6930](https://github.com/rubygems/rubygems/pull/6930) by segiddins
+* Freeze more strings in generated gemspecs. Pull request
+  [#6974](https://github.com/rubygems/rubygems/pull/6974) by segiddins
+* Use pure-ruby YAML parser for loading configuration at RubyGems. Pull
+  request [#6615](https://github.com/rubygems/rubygems/pull/6615) by hsbt
+* Installs bundler 2.4.21 as a default gem.
+
+## Documentation:
+
+* Update suggested variable for bindir. Pull request
+  [#7028](https://github.com/rubygems/rubygems/pull/7028) by hsbt
+* Fix invalid links in documentation. Pull request
+  [#7008](https://github.com/rubygems/rubygems/pull/7008) by simi
+
+# 3.4.20 / 2023-09-27
+
+## Enhancements:
+
+* Raise `Gem::Package::FormatError` when gem encounters corrupt EOF.
+  Pull request [#6882](https://github.com/rubygems/rubygems/pull/6882)
+  by martinemde
+* Allow skipping empty license `gem build` warning by setting license to
+  `nil`. Pull request
+  [#6879](https://github.com/rubygems/rubygems/pull/6879) by jhong97
+* Update SPDX license list as of 2023-06-18. Pull request
+  [#6891](https://github.com/rubygems/rubygems/pull/6891) by
+  github-actions[bot]
+* Update SPDX license list as of 2023-04-28. Pull request
+  [#6642](https://github.com/rubygems/rubygems/pull/6642) by segiddins
+* Update SPDX license list as of 2023-01-26. Pull request
+  [#6310](https://github.com/rubygems/rubygems/pull/6310) by segiddins
+* Installs bundler 2.4.20 as a default gem.
+
+## Bug fixes:
+
+* Fixed false positive SymlinkError in symbolic link directory. Pull
+  request [#6947](https://github.com/rubygems/rubygems/pull/6947) by
+  negi0109
+* Ensure that loading multiple gemspecs with legacy YAML class references
+  does not warn. Pull request
+  [#6889](https://github.com/rubygems/rubygems/pull/6889) by segiddins
+* Fix NoMethodError when choosing a too big number from `gem uni` list.
+  Pull request [#6901](https://github.com/rubygems/rubygems/pull/6901) by
+  amatsuda
+
+## Performance:
+
+* Reduce allocations for stub specifications. Pull request
+  [#6972](https://github.com/rubygems/rubygems/pull/6972) by segiddins
+
+# 3.4.19 / 2023-08-17
+
+## Enhancements:
+
+* Installs bundler 2.4.19 as a default gem.
+
+## Performance:
+
+* Speedup building docs when updating rubygems. Pull request
+  [#6864](https://github.com/rubygems/rubygems/pull/6864) by
+  deivid-rodriguez
+
+# 3.4.18 / 2023-08-02
+
+## Enhancements:
+
+* Add poller to fetch WebAuthn OTP. Pull request
+  [#6774](https://github.com/rubygems/rubygems/pull/6774) by jenshenny
+* Remove side effects when unmarshaling old `Gem::Specification`. Pull
+  request [#6825](https://github.com/rubygems/rubygems/pull/6825) by nobu
+* Ship rubygems executables in `exe` folder. Pull request
+  [#6704](https://github.com/rubygems/rubygems/pull/6704) by hsbt
+* Installs bundler 2.4.18 as a default gem.
+
+# 3.4.17 / 2023-07-14
+
+## Enhancements:
+
+* Installs bundler 2.4.17 as a default gem.
+
+## Performance:
+
+* Avoid unnecessary work for private local gem installation. Pull request
+  [#6810](https://github.com/rubygems/rubygems/pull/6810) by
+  deivid-rodriguez
+
+# 3.4.16 / 2023-07-10
+
+## Enhancements:
+
+* Installs bundler 2.4.16 as a default gem.
+
+# 3.4.15 / 2023-06-29
+
+## Enhancements:
+
+* Installs bundler 2.4.15 as a default gem.
+
+## Bug fixes:
+
+* Autoload shellwords when it's needed. Pull request
+  [#6734](https://github.com/rubygems/rubygems/pull/6734) by ioquatix
+
+## Documentation:
+
+* Update command to test local gem command changes. Pull request
+  [#6761](https://github.com/rubygems/rubygems/pull/6761) by jenshenny
+
+# 3.4.14 / 2023-06-12
+
+## Enhancements:
+
+* Load plugin immediately. Pull request
+  [#6673](https://github.com/rubygems/rubygems/pull/6673) by kou
+* Installs bundler 2.4.14 as a default gem.
+
+## Documentation:
+
+* Clarify what the `rubygems-update` gem is for, and link to source code
+  and guides. Pull request
+  [#6710](https://github.com/rubygems/rubygems/pull/6710) by davetron5000
+
+# 3.4.13 / 2023-05-09
+
+## Enhancements:
+
+* Installs bundler 2.4.13 as a default gem.
+
+# 3.4.12 / 2023-04-11
+
+## Enhancements:
+
+* [Experimental] Add WebAuthn Support to the CLI. Pull request
+  [#6560](https://github.com/rubygems/rubygems/pull/6560) by jenshenny
+* Installs bundler 2.4.12 as a default gem.
+
+# 3.4.11 / 2023-04-10
+
+## Enhancements:
+
+* Installs bundler 2.4.11 as a default gem.
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+        D:/Ruby32-x64/bin/gem
+        D:/Ruby32-x64/bin/bundle
+        D:/Ruby32-x64/bin/bundler
+
+Ruby Interactive (ri) documentation was installed. ri is kind of like man
+pages for Ruby libraries. You may access it like this:
+  ri Classname
+  ri Classname.class_method
+  ri Classname#instance_method
+If you do not wish to install this documentation in the future, use the
+--no-document flag, or set it as the default in your ~/.gemrc file. See
+'gem help env' for details.
+
+RubyGems system software updated
+
+C:\Users\windows\Desktop\js\principia137.github.io>bundle exec jekyll serve
+Could not find gem 'github-pages (= 228)' in locally installed gems.
+Run `bundle install` to install missing gems.
+
+C:\Users\windows\Desktop\js\principia137.github.io>bundle update github-pages
+This Bundle hasn't been installed yet. Run `bundle install` to update and
+install the bundled gems.
+
+C:\Users\windows\Desktop\js\principia137.github.io>bundle install github-pages
+ERROR: "bundle install" was called with arguments ["github-pages"]
+Usage: "bundle install [OPTIONS]"
+
+C:\Users\windows\Desktop\js\principia137.github.io>bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Resolving dependencies...
+Fetching base64 0.2.0
+Fetching bigdecimal 3.1.5
+Fetching connection_pool 2.4.1
+Fetching minitest 5.21.1
+Fetching mutex_m 0.2.0
+Fetching public_suffix 4.0.7
+Fetching coffee-script-source 1.11.1
+Fetching execjs 2.9.1
+Installing base64 0.2.0
+Installing connection_pool 2.4.1
+Installing bigdecimal 3.1.5 with native extensions
+Fetching commonmarker 0.23.10
+Installing minitest 5.21.1
+Fetching unf_ext 0.0.9.1 (x64-mingw-ucrt)
+Installing mutex_m 0.2.0
+Fetching uri 0.13.0
+Installing public_suffix 4.0.7
+Fetching gemoji 3.0.1
+Installing coffee-script-source 1.11.1
+Installing execjs 2.9.1
+Fetching rexml 3.2.6
+Installing commonmarker 0.23.10 with native extensions
+Fetching mercenary 0.3.6
+Fetching rouge 3.26.0
+Installing uri 0.13.0
+Installing unf_ext 0.0.9.1 (x64-mingw-ucrt)
+Installing gemoji 3.0.1
+Fetching racc 1.7.3
+Installing mercenary 0.3.6
+Fetching jekyll-paginate 1.1.0
+Installing rexml 3.2.6
+Fetching rubyzip 2.3.2
+Fetching jekyll-swiss 1.0.0
+Installing racc 1.7.3 with native extensions
+Installing rouge 3.26.0
+Installing jekyll-paginate 1.1.0
+Installing rubyzip 2.3.2
+Installing jekyll-swiss 1.0.0
+Fetching unicode-display_width 1.8.0
+Fetching drb 2.2.0
+Installing unicode-display_width 1.8.0
+Fetching tzinfo 2.0.6
+Installing drb 2.2.0
+Fetching ethon 0.16.0
+Fetching coffee-script 2.4.1
+Installing tzinfo 2.0.6
+Installing ethon 0.16.0
+Fetching net-http 0.4.1
+Installing coffee-script 2.4.1
+Fetching unf 0.1.4
+Installing net-http 0.4.1
+Installing unf 0.1.4
+Fetching kramdown 2.3.2
+Fetching terminal-table 1.8.0
+Fetching sass-listen 4.0.0
+Installing kramdown 2.3.2
+Installing terminal-table 1.8.0
+Installing sass-listen 4.0.0
+Fetching jekyll-coffeescript 1.1.1
+Installing jekyll-coffeescript 1.1.1
+Fetching faraday-net_http 3.1.0
+Installing faraday-net_http 3.1.0
+Fetching simpleidn 0.2.1
+Fetching typhoeus 1.4.1
+Installing simpleidn 0.2.1
+Fetching faraday 2.9.0
+Installing typhoeus 1.4.1
+Installing faraday 2.9.0
+Fetching sass 3.7.4
+Installing sass 3.7.4
+Fetching dnsruby 1.70.0
+Installing dnsruby 1.70.0
+Fetching sawyer 0.9.2
+Installing sawyer 0.9.2
+Fetching octokit 4.25.1
+Installing octokit 4.25.1
+Fetching jekyll-sass-converter 1.5.2
+Installing jekyll-sass-converter 1.5.2
+Fetching jekyll-gist 1.5.0
+Installing jekyll-gist 1.5.0
+Fetching github-pages-health-check 1.17.9
+Installing github-pages-health-check 1.17.9
+Fetching nokogiri 1.16.0 (x64-mingw-ucrt)
+Fetching jekyll 3.9.3
+Installing jekyll 3.9.3
+Installing nokogiri 1.16.0 (x64-mingw-ucrt)
+Fetching jekyll-avatar 0.7.0
+Fetching jekyll-default-layout 0.1.4
+Fetching jekyll-feed 0.15.1
+Fetching jekyll-github-metadata 2.13.0
+Fetching jekyll-include-cache 0.2.1
+Installing jekyll-avatar 0.7.0
+Installing jekyll-default-layout 0.1.4
+Fetching jekyll-optional-front-matter 0.3.2
+Fetching jekyll-readme-index 0.3.0
+Installing jekyll-feed 0.15.1
+Fetching jekyll-redirect-from 0.16.0
+Installing jekyll-include-cache 0.2.1
+Installing jekyll-github-metadata 2.13.0
+Fetching jekyll-relative-links 0.6.1
+Installing jekyll-optional-front-matter 0.3.2
+Fetching jekyll-remote-theme 0.4.3
+Fetching jekyll-seo-tag 2.8.0
+Installing jekyll-readme-index 0.3.0
+Fetching jekyll-sitemap 1.4.0
+Installing jekyll-redirect-from 0.16.0
+Installing jekyll-relative-links 0.6.1
+Fetching jekyll-titles-from-headings 0.5.3
+Installing jekyll-remote-theme 0.4.3
+Installing jekyll-seo-tag 2.8.0
+Installing jekyll-sitemap 1.4.0
+Installing jekyll-titles-from-headings 0.5.3
+Fetching jekyll-theme-architect 0.2.0
+Fetching jekyll-theme-cayman 0.2.0
+Fetching jekyll-theme-dinky 0.2.0
+Fetching jekyll-theme-hacker 0.2.0
+Installing jekyll-theme-architect 0.2.0
+Fetching jekyll-theme-leap-day 0.2.0
+Installing jekyll-theme-cayman 0.2.0
+Installing jekyll-theme-dinky 0.2.0
+Fetching jekyll-theme-merlot 0.2.0
+Installing jekyll-theme-hacker 0.2.0
+Fetching jekyll-theme-midnight 0.2.0
+Fetching jekyll-theme-minimal 0.2.0
+Fetching jekyll-theme-modernist 0.2.0
+Fetching jekyll-theme-primer 0.6.0
+Installing jekyll-theme-leap-day 0.2.0
+Installing jekyll-theme-merlot 0.2.0
+Fetching jekyll-theme-slate 0.2.0
+Fetching jekyll-theme-tactile 0.2.0
+Installing jekyll-theme-minimal 0.2.0
+Installing jekyll-theme-modernist 0.2.0
+Installing jekyll-theme-primer 0.6.0
+Installing jekyll-theme-slate 0.2.0
+Fetching jekyll-theme-time-machine 0.2.0
+Installing jekyll-theme-midnight 0.2.0
+Installing jekyll-theme-tactile 0.2.0
+Fetching minima 2.5.1
+Installing jekyll-theme-time-machine 0.2.0
+Installing minima 2.5.1
+Fetching jekyll-commonmark 1.4.0
+Installing jekyll-commonmark 1.4.0
+Fetching jekyll-commonmark-ghpages 0.4.0
+Installing jekyll-commonmark-ghpages 0.4.0
+Fetching activesupport 7.1.2
+Installing activesupport 7.1.2
+Fetching html-pipeline 2.14.3
+Installing html-pipeline 2.14.3
+Fetching jekyll-mentions 1.6.0
+Fetching jemoji 0.12.0
+Installing jemoji 0.12.0
+Installing jekyll-mentions 1.6.0
+Fetching github-pages 228
+Installing github-pages 228
+Bundle complete! 1 Gemfile dependency, 96 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+Post-install message from dnsruby:
+Installing dnsruby...
+  For issues and source code: https://github.com/alexdalitz/dnsruby
+  For general discussion (please tell us how you use dnsruby): https://groups.google.com/forum/#!forum/dnsruby
+Post-install message from sass:
+
+Ruby Sass has reached end-of-life and should no longer be used.
+
+* If you use Sass as a command-line tool, we recommend using Dart Sass, the new
+  primary implementation: https://sass-lang.com/install
+
+* If you use Sass as a plug-in for a Ruby web framework, we recommend using the
+  sassc gem: https://github.com/sass/sassc-ruby#readme
+
+* For more details, please refer to the Sass blog:
+  https://sass-lang.com/blog/posts/7828841
+
+Post-install message from html-pipeline:
+-------------------------------------------------
+Thank you for installing html-pipeline!
+You must bundle Filter gem dependencies.
+See html-pipeline README.md for more details.
+https://github.com/jch/html-pipeline#dependencies
+-------------------------------------------------
+Post-install message from rubyzip:
+RubyZip 3.0 is coming!
+**********************
+
+The public API of some Rubyzip classes has been modernized to use named
+parameters for optional arguments. Please check your usage of the
+following classes:
+  * `Zip::File`
+  * `Zip::Entry`
+  * `Zip::InputStream`
+  * `Zip::OutputStream`
+
+Please ensure that your Gemfiles and .gemspecs are suitably restrictive
+to avoid an unexpected breakage when 3.0 is released (e.g. ~> 2.3.0).
+See https://github.com/rubyzip/rubyzip for details. The Changelog also
+lists other enhancements and bugfixes that have been implemented since
+version 2.3.0.
+
+C:\Users\windows\Desktop\js\principia137.github.io>bundle exec jekyll serve
+Configuration file: C:/Users/windows/Desktop/js/principia137.github.io/_config.yml
+       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: C:/Users/windows/Desktop/js/principia137.github.io
+       Destination: C:/Users/windows/Desktop/js/principia137.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+             Error: could not read file C:/Users/windows/Desktop/js/principia137.github.io/_posts/2021-00-00-지식의 본질과 한계.md: Invalid date '2021-00-00': Document '_posts/2021-00-00-지식의 본질과 한계.md' does not have a valid date in the filename.
+             ERROR: YOUR SITE COULD NOT BE BUILT:
+                    ------------------------------------
+                    Invalid date '2021-00-00': Document '_posts/2021-00-00-지식의 본질과 한계.md' does not have a valid date in the filename.
+
+C:\Users\windows\Desktop\js\principia137.github.io>bundle exec jekyll serve
+Configuration file: C:/Users/windows/Desktop/js/principia137.github.io/_config.yml
+       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: C:/Users/windows/Desktop/js/principia137.github.io
+       Destination: C:/Users/windows/Desktop/js/principia137.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+       Jekyll Feed: Generating feed for posts
+   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+                    done in 2.11 seconds.
+  Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+ Auto-regeneration: enabled for 'C:/Users/windows/Desktop/js/principia137.github.io'
+<internal:D:/Ruby32-x64/lib/ruby/site_ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require': cannot load such file -- webrick (LoadError)
+        from <internal:D:/Ruby32-x64/lib/ruby/site_ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/jekyll-3.9.3/lib/jekyll/commands/serve/servlet.rb:3:in `<top (required)>'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/jekyll-3.9.3/lib/jekyll/commands/serve.rb:184:in `require_relative'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/jekyll-3.9.3/lib/jekyll/commands/serve.rb:184:in `setup'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/jekyll-3.9.3/lib/jekyll/commands/serve.rb:102:in `process'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/jekyll-3.9.3/lib/jekyll/commands/serve.rb:93:in `block in start'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/jekyll-3.9.3/lib/jekyll/commands/serve.rb:93:in `each'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/jekyll-3.9.3/lib/jekyll/commands/serve.rb:93:in `start'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/jekyll-3.9.3/lib/jekyll/commands/serve.rb:75:in `block (2 levels) in init_with_program'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+        from D:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/jekyll-3.9.3/exe/jekyll:15:in `<top (required)>'
+        from D:/Ruby32-x64/bin/jekyll:25:in `load'
+        from D:/Ruby32-x64/bin/jekyll:25:in `<main>'
+
+C:\Users\windows\Desktop\js\principia137.github.io>bundle add webrick
+Fetching gem metadata from https://rubygems.org/.........
+Resolving dependencies...
+Fetching gem metadata from https://rubygems.org/.........
+Resolving dependencies...
+
+C:\Users\windows\Desktop\js\principia137.github.io>bundle exec jekyll serve
+Configuration file: C:/Users/windows/Desktop/js/principia137.github.io/_config.yml
+       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: C:/Users/windows/Desktop/js/principia137.github.io
+       Destination: C:/Users/windows/Desktop/js/principia137.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+       Jekyll Feed: Generating feed for posts
+   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+                    done in 1.899 seconds.
+  Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+ Auto-regeneration: enabled for 'C:/Users/windows/Desktop/js/principia137.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.

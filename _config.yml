@@ -20,7 +20,7 @@ baseurl: ""
 url: "https://principia137.github.io"
 permalink: /:year/:month/:day/:title
 repository: 
-paginate: 5
+paginate: 4
 
 # MatJek specific configurations
 github_profile: "https://github.com/pricipia137"
