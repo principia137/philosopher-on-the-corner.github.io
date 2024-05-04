@@ -41,9 +41,9 @@ js: ["post.js"]
     {{ content }}
   </div>
 </div>
-{% if site.disqus_shortname and page.comments %}
-<div id="disqus_thread"></div>
-<script>
+<!-- {% if site.disqus_shortname and page.comments %}
+<div id="disqus_thread"></div> -->
+<!-- <script>
   var disqus_config = function () {
     this.page.url = "{{site.url}}{{site.baseurl}}{{page.url}}";
     this.page.identifier = "{{page.id}}";
@@ -54,6 +54,14 @@ js: ["post.js"]
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
   })();
-</script>
+</script> -->
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
+<script src="https://utteranc.es/client.js"
+        repo="principia137/blog-commnet"
+        issue-term="title"
+        label="💬Comments💬"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
