@@ -28,7 +28,7 @@ user: "방구석철학자 & 물리꿈나무"
 user_email: "yuyuyu7020@gmail.com"
 contact_url: ""
 google_site_verification: "UA-96359860-1"
-disqus_shortname: "shortname_given_by_Disqus"
+# disqus_shortname: "shortname_given_by_Disqus"
 
 # Build settings
 markdown: kramdown
@@ -44,8 +44,8 @@ sass:
   style: compressed
 future: true
 
-
-comments:
+# Comments settings
+comments: true
 provider: "utterances"
 utterances:
   theme: "github-light" # "github-dark"
