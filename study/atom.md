@@ -1,6 +1,5 @@
 ---
-author:
-- Joon Sik, CAU Physics
+author: Joon Sik, CAU Physics
 date: September 2023
 title: Hydrogen Atom Visualization
 ---
