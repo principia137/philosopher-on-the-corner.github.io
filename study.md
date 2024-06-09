@@ -5,7 +5,7 @@ css: ["about.css", "animate.css", "morphext.css"]
 js: ["morphext.min.js", "about.js"]
 ---
 <!-- {% include study.html %} -->
-[수소원자의 시각화](study/atom.md)
+[수소원자는 '실제로' 어떻게 생겼을까?](study/atom.md)
 
 #### My Plan..
 
