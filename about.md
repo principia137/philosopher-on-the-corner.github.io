@@ -6,7 +6,7 @@ js: ["morphext.min.js", "about.js"]
 ---
 <!-- {% include about.html %} -->
 ----
-### 저는...
+#### 저는...
 
 1. 니체 위버멘쉬 사상을 삶의 본질적 태도로 삼습니다. 이 블로그의 이름도 위버멘쉬의 이름을 따 제 이름의 성과 합쳐 *유버멘쉬*라고 지었습니다. 저는 자기신뢰가 매우 강한 사람입니다. 자기효능감이 높습니다. 낭만주의자가 되고 싶습니다.  
 
@@ -14,7 +14,7 @@ js: ["morphext.min.js", "about.js"]
 
 3. 종합격투기와 주짓수 수련 중입니다.  
 
-##### 나의 신조 ! : Ne te quaesiveris extra(네 자신을 밖에서 구하지 말라). 소신있게 삽시다
+##### 나의 신조 : Ne te quaesiveris extra(네 자신을 밖에서 구하지 말라!)
 ----
 ### Info...  
 
@@ -23,11 +23,13 @@ js: ["morphext.min.js", "about.js"]
 - 미래산업과학고(2017~2019)  
 
 *Affiliation* : CAU THEP research student  
-*Instgram* : https://instagram.com/philosopher_on_the_corner?igshid=OGQ5ZDc2ODk2ZA==  
-*Project* : https://github.com/principia137  
+*Instgram* : [https://instagram.com/philosopher_on_the_corner?igshid=OGQ5ZDc2ODk2ZA==](https://instagram.com/philosopher_on_the_corner?igshid=OGQ5ZDc2ODk2ZA==)  
+*Project* : [https://github.com/principia137](https://github.com/principia137)  
 *Linkedin profile* : not yet  
 *Resume* : if you contact me I can give you my resume  
 *Notion* :  
-*YouTube* : https://www.youtube.com/@yubermensch  
-*Personal blog* : https://yubermensch.com  
-https://sites.google.com/view/cau-ddm/home
+*YouTube* : [https://www.youtube.com/@yubermensch](https://www.youtube.com/@yubermensch)  
+*Personal blog* : [https://yubermensch.com](https://yubermensch.com)  
+
+
+***중앙대 물리학과 학술동아리 DDM 사이트 : [https://sites.google.com/view/cau-ddm/home](https://sites.google.com/view/cau-ddm/home)***
