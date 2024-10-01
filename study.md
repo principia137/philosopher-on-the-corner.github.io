@@ -5,11 +5,16 @@ css: ["about.css", "animate.css", "morphext.css"]
 js: ["morphext.min.js", "about.js"]
 ---
 <!-- {% include study.html %} -->
+
+## 물리학
 [수소원자는 '실제로' 어떻게 생겼을까?](study/atom.md)
+[전자기학 '완벽'정리, 근본으로 돌아가자](study/EM.md)
+
+## 수학
 
 
 
-##### 계획중인 것(진행상황 %)
+### 쓰고있는 것(진행상황 %)
 
 [전자기현상에 대한 아름다운 이론(99%)]
 
