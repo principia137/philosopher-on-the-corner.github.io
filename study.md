@@ -9,7 +9,7 @@ js: ["morphext.min.js", "about.js"]
 ### 물리학
 [수소원자는 '실제로' 어떻게 생겼을까?](study/atom.md)  
 [전자기학 '완벽'정리, 근본으로 돌아가자](study/EM.md)
-
+[그린함수의 이해](study/green.md)
 ### 수학
 
 
