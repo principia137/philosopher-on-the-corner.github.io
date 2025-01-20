@@ -15,28 +15,28 @@ title: Hydrogen Atom Visualization
 
 여기서 MATHEMATICA에 대해 잠깐 소개해보고자 한다. MATHEMATICA는 어떤 물리문제를 풀고 시각화하는 등의 영역에서 정말 **강력한** 기능을 제공한다. 이런 수소원자 확률분포의 시각화 같은 작업에서도 MATHEMATICA는 훌륭한 도구이다. 파이썬 같은 다른 범용 언어를 써도 되지만 MATHEMATICA를 쓰면 훨씬 편리하다. 우리는 MATHEMATICA의 ***"3D-Density Plot"*** 함수를 이용할 것이다. 이 함수를 사용하면 우리가 원하는대로 3차원 공간의 각 지점마다 색깔을 통해서 값을 표현할 수 있다.  
 
-![DensityPlot](DensityPlot.PNG)
+![DensityPlot](img2/DensityPlot.PNG)
 [참고문헌 : DensityPlot 설명](https://reference.wolfram.com/language/ref/DensityPlot3D.html)
 
 ----
 #### 파동함수 표
-![Wavefn](image.png)
+![Wavefn](img2/image.png)
 
 
 #### 구면조화함수 확률분포
 구면조화함수는 반지름이 아닌 각도와 관련있는 파동함수로 각각의 방위각과 극각에 확률값이 할당되어있다. 이것을 우리는 구 표면을 통해 표현 할 수 있다. 보통 일반적으로 교과서에 적혀있는 구면조화함수 확률분포의 모양은 확률 값을 마치 반지름처럼 보고 그린 것이다. 하지만 이 것은 실제 구면조화함수가 어떻게 생겼는지에 대한 다소 오해의 소지가 있다고 생각한다. 그래서 좀더 명확하게 하기위해 구 표면상에 각 지점마다 확률값을 역시 색깔을 통해 표현하도록 하겠다. 구면조화함수는 방위각과 극각에 따라서만 변하는 함수이므로 구 표면을 통해 표현 가능하다. 여기서는 ***"SliceDensityPlot3D"*** 함수를 이용할 것이다. 
 
-![probability](image-1.png)
-![spherical1](image-2.png)
-![spherical2](image-3.png)
+![probability](img2/image-1.png)
+![spherical1](img2/image-2.png)
+![spherical2](img2/image-3.png)
 
 
 여기서 l=0, m=0 인 구면조화함수가 안보이는 이유는 각에 따른 모든 지점에서 확률이 동일하기 때문에 출력이 되지 않았다.
 
 #### 수소원자 파동함수 확률분포
 ***"DensityPlot3D"*** 함수를 이용해 수소원자 파동함수의 확률분포를 시각화 해보겠다.  
-![alt text](image-4.png)
-![alt text](image-5.png)
+![alt text](img2/image-4.png)
+![alt text](img2/image-5.png)
 
 #### 코드
 코드를 올리려 했으나.. 코드가 Wolfram Cloud에 저장이 되어있는데 요금제 구매를 안해서 지금 Wolfram Cloud에 접근을 할 수가 없어서 못 올리게 됐습니다. 다음에 가능하면 올리겠습니다.  

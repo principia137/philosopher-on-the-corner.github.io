@@ -17,7 +17,7 @@ title: 유버멘쉬 아카이브
 description: > # this means to ignore newlines until "baseurl:"
   Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
 baseurl: ""
-url: "https://yubermensch.com"
+url: "https://principa137.github.io/yubermensch-old-ver" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title
 repository: 
 paginate: 4
